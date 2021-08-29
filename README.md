@@ -4,6 +4,36 @@
 <img src="https://i.ibb.co/TqXRfGh/logo.png" alt=”Trademarkia” width="450px" />
 </center>
 
+---
+# React Frontend Web Developer - Work Together
+
+**Submission by Akhil Saxena - 18BCE0969**
+
+_Create an application similar to Google Sheets, but with types for each column. Implement as many features as you can; data entry, validation, layout and responsiveness is necessary._
+
+ [ ] Performance is paramount.
+ [x] Persistence is optional, but recommended.
+ [x] Using TypeScript is highly recommended.
+ [ ] Try to minimize bundle size.
+ [x] Usage of Redux with Redux-toolkit is a big plus.
+ [x] Bonus points for a slick UI.
+ [ ] Small bonus for a dynamic dark mode
+ 
+## Features
+ - Registration and Login
+ - Save spreadsheet to mongoDB
+ -
+ -
+## Tech
+The application relies on a number of open source projects to work properly:
+- [React]
+- [Redux]
+- [node.js]
+- [Express]
+- [mongoDB]
+- [Bootstrap]
+
+
 --- 
 
 ## Instructions
