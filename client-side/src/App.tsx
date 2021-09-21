@@ -6,7 +6,6 @@ import Home from "./routes/Home";
 import Register from "./routes/Register";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Provider } from "react-redux";
-import configureStore from "./store";
 import Upload from './routes/Upload';
 
 
@@ -26,7 +25,7 @@ function App() {
   });
 
   return (
-    <Provider store={configureStore()}>
+    
       <div className="App">
         <BrowserRouter>
           <Nav name={name} setName={setName} />
@@ -40,7 +39,6 @@ function App() {
           </div>
         </BrowserRouter>
       </div>
-    </Provider>
   );
 }
 

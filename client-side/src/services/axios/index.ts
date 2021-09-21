@@ -1,5 +1,4 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
-import { IError } from "../../interfaces/root";
 import config from "../../config";
 
 axios.interceptors.request.use((axiosConfig) => {
@@ -50,7 +49,7 @@ axios.interceptors.response.use(
 
 export default axios;
 
-export interface IAxiosResponseError<T = IError> {
+export interface IAxiosResponseError<T> {
   config: AxiosRequestConfig;
   request?: any;
   response: AxiosResponse<T>;
