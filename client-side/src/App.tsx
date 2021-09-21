@@ -4,7 +4,6 @@ import Login from "./routes/Login";
 import Nav from "./components/Nav";
 import Home from "./routes/Home";
 import Register from "./routes/Register";
-import Sheet from "./routes/Sheet";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureStore from "./store";
@@ -38,7 +37,6 @@ function App() {
               component={() => <Login setName={setName} />}
             />
             <Route path="/register" component={Register} />
-            <Route path="/sheet/:sheetId" component={Sheet} />
           </div>
         </BrowserRouter>
       </div>
