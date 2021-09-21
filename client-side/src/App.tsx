@@ -8,6 +8,8 @@ import Sheet from "./routes/Sheet";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import configureStore from "./store";
+import Upload from './routes/Upload';
+
 
 function App() {
   const [name, setName] = useState("");
@@ -30,7 +32,7 @@ function App() {
         <BrowserRouter>
           <Nav name={name} setName={setName} />
           <div className="app-wrapper">
-            <Route path="/" exact component={() => <Home name={name} />} />
+            <Route path="/" exact component={() => <Upload/>} />
             <Route
               path="/login"
               component={() => <Login setName={setName} />}
